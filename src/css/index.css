@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #FFFAF6;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: "PP Neue Montreal";
+    src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'PP Neue Montreal', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #3D3D3D;
+    text-align: center;
+}
+
+.total_amount {
+    margin-top: 20px;
+    font-family: 'PP Neue Montreal', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    justify-content: center;
+
+    color: #A2A2A2;
+}
+
+.card {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 250px;
+    top: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-left: 5%;
+    left: -10px;
+}
+
+.card_img {
+    margin-bottom: -240px;
+    border-radius: 10px;
+}
+
+.card_title {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    font-family: 'PP Neue Montreal', serif;
+}
+
+.label_price {
+    display: flex;
+    position: center;
+    width: 35px;
+    height: 25px;
+    flex-shrink: 0;
+    margin-left: 65px;
+    margin-bottom: 100px;
+    justify-content: center;
+    background: #FFFAF6;
+    border-radius: 10px;
+}
+
+.card_total_amount {
+    color: #3D3D3D;
+    font-family: 'PP Neue Montreal', serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    transform: translate(0, 20%);
+}
+
+.syrup_container {
+    margin-bottom: 10px;
+}
+
+.syrup_form {
+    font-family: 'PP Neue Montreal', serif;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 127px;
+    height: 18px;
+    left: 18px;
+    top: 150px;
+
+    background: #FFFFFF;
+    color: #9F9B9B;
+    padding: 0 28px;
+
+    border-radius: 10px;
+    border: #E17B41;
+    font-size: 10px;
+}
+
+select {
+    text-align-last: center;
+}
+
+.buttons {
+    width: 160px;
+    height: 78px;
+    flex-shrink: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.buttons_size {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+}
+
+.button_size {
+    flex-direction: column;
+
+    background: #EDDED2;
+    color: #3D3D3D;
+    border-radius: 10px;
+    width: 35px;
+    height: 25px;
+    margin-left: 22px;
+    margin-top: 8px;
+
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+}
+
+.btn_size_text {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'PP Neue Montreal', serif;
+    flood-color: #3D3D3D;
+    margin-top: 3px;
+}
+
+.button_buy {
+    position: relative;
+    width: 135px;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+
+    background: #EDDED2;
+    border-radius: 10px;
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.btn_buy_text {
+    font-family: 'PP Neue Montreal', serif;
+    position: absolute;
+    left: 26%;
+    transform: translate(0, 46%);
+    font-size: 16px;
+    top: -1px;
+}
+
+.active{
+    background:#CBC5BC;
+}
+.active .btn_size_text{
+    color: #FFFFFF;
+}
+
+.active .btn_buy_text{
+    color: #FFFFFF;
+}
+
+
