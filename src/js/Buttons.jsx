@@ -20,7 +20,7 @@ export const Buttons = (props) => {
     const [Size_state, SetSize_state] = useState(0)
     const settingSize = (Size_state) => SetSize_state(Size_state)
 
-    const [Syrup_name, SetSyrup_name] = useState("Без сиропа")
+    const [Syrup_name, SetSyrup_name] = useState("Без_сиропа")
     const setting_syrup = (Syrup_name) => SetSyrup_name(Syrup_name)
 
     const [buy_isActive, set_buy_isActive] = useState(true);
