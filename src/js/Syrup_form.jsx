@@ -17,7 +17,7 @@ export const SyrupForm = (props) => {
         {value: "Айриш", text: "Айриш"},
         {value: "Лаванда", text: "Лаванда"}]
     const select_click = (option) => {
-        if (option.target.value !== "Без сиропа") props.onChange(20)
+        if (option.target.value !== "Без_сиропа") props.onChange(20)
         else props.onChange(0)
         props.value(option.target.value);
     }
