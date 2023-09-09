@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SyrupForm = (props) => {
     const options = [
-        {value: "Без сиропа", text: "Без сиропа"},
+        {value: "Без_сиропа", text: "Без сиропа"},
         {value: "Ваниль", text: "Ваниль"},
         {value: "Карамель", text: "Карамель"},
         {value: "Миндаль", text: "Миндаль"},
