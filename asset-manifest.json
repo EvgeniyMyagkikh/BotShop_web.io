@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BotShop_web.io/static/css/main.9a155e8a.css",
-    "main.js": "/BotShop_web.io/static/js/main.f151bb06.js",
+    "main.js": "/BotShop_web.io/static/js/main.89e108f6.js",
     "static/js/787.b11d74c0.chunk.js": "/BotShop_web.io/static/js/787.b11d74c0.chunk.js",
     "static/media/americano.jpg": "/BotShop_web.io/static/media/americano.50e70cabbf81e4ff8d8d.jpg",
     "static/media/latte.jpg": "/BotShop_web.io/static/media/latte.954160fad709b0058c15.jpg",
@@ -10,11 +10,11 @@
     "index.html": "/BotShop_web.io/index.html",
     "static/media/PPNeueMontreal-Medium.otf": "/BotShop_web.io/static/media/PPNeueMontreal-Medium.31d6cfe0d16ae931b73c.otf",
     "main.9a155e8a.css.map": "/BotShop_web.io/static/css/main.9a155e8a.css.map",
-    "main.f151bb06.js.map": "/BotShop_web.io/static/js/main.f151bb06.js.map",
+    "main.89e108f6.js.map": "/BotShop_web.io/static/js/main.89e108f6.js.map",
     "787.b11d74c0.chunk.js.map": "/BotShop_web.io/static/js/787.b11d74c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a155e8a.css",
-    "static/js/main.f151bb06.js"
+    "static/js/main.89e108f6.js"
   ]
 }
